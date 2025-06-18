@@ -1,0 +1,82 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top: 30px;
+    color: white;
+    font-size: max(1vw,40px);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-shadow: 3PX 5PX 14PX black;
+    
+}
+.title span{
+    color: #26ffcb;
+    padding-left: 14px;
+}
+
+.reset {
+    width: 140px;
+    height: 45px;
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 500;
+    color:#26ffcb;
+    background:#1f3540;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3PX 4PX 10PX 1PX black;
+    }
+    .reset:active{
+        box-shadow: inset 3PX 4PX 10PX 1PX black;
+    }
+
+.board{
+    /* height: 354px; */
+    width: 354px;
+    display: flex;
+    margin: auto;
+    background-color: #26ffcb;
+    
+}
+.chanceMove{
+    color:#26ffcb;
+    text-shadow: 3PX 4PX 10PX black;
+}
+.chanceMove span{
+    color:white;
+    text-shadow: 3PX 4PX 10PX black;
+}
+
+.iswiner{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #21cff3, #086aff, #23bfcf, #66ee44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.playAgain{
+    width: 159px;
+    padding: 6px;
+    border: 2px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 12px;
+    box-shadow: 3PX 4PX 10PX 1PX black;
+}
+.playAgain span{
+    color: #26ffcb;
+}
+.playAgain:active{
+    box-shadow: inset 3PX 4PX 10PX 1PX black;
+}

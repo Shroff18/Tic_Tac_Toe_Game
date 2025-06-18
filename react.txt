@@ -1,0 +1,92 @@
+1  > vertual dom 
+
+react user ko real dom ki copy dikate he jise vertua dom khte he jb user vdom me change krta , intraction, manupulate he t vh vdom me krta he  use real dom gta he vo perticuar change bad me real dom me hta he 
+is update krne ki procces k { Reconciliation }khte he
+or yh 2 stewp peocess he phle vdom fir dom
+t yh pertoculer change ko render krta he jisse yh fast hta he , dom ke mukabele
+
+2  > index.css
+
+this is a global css file that serves as the main stylesheet for the entier application
+koi bhi css likhne se vh kisi bhi other component me lg skte he
+
+3   >  
+
+user request sent krta he server k t phe v index.html file ko fass jata then with the help of react library index.js file loaded into a browser and then index.js file render the app.js inside a index.htm file 
+
+4  > npm
+
+node packge mdule he jo a all react library k install krta he jo ui bnane me help kerti he 
+ or sari dependice ko bhi if you are not using NPM module so we are download separately all react library
+
+5  >public
+
+yaha static data / file  hoto he j dynamic nhi hta he or koi api work nhi hota
+
+
+6 >  <React.StrictMde>
+
+its wraper that is help to debugging and identifing issue and error it offtional
+
+7>  jsx
+
+browser suport only html, css, js and not support jxs s it is fierst convert into js by using babel tools and babel ibrabry is present in node module
+
+
+8>  && opratr
+
+yh ternari jesa  hta he {return 2>1 && "abc" } ydi true hua to abc reteun krega nhi to " null" dega because there is not other offtion
+
+
+9  > transpier
+
+yh convert krta he high levle programing language ko only high level programming language convert karthi hey
+
+and compiler only convert high level programming language into low level programming that is the difference between compiler and transpiler
+
+10   >  switch
+
+same hne pr vo phe vaa ko render krata he
+
+11  >  useEffect
+
+componnet ke render hone ke bad use hta he kyoki api se data lane me time lgta he to isliye
+ its take tow parameter {effect(functoin),dependenci}
+dependenci array use to jb bhi vaule change hongin to effect function vaps call hoga again again 
+
+effect function re run and change all the element value in dependenci array
+
+jb empty array hota he mtb effect function change nhi hoga fix he again run nhi hoga
+
+
+12 > constructor
+
+state ko set krne ke iye use hota he jyadatr kyki yh cmponent ke render hone ke phle render hota he
+
+13 > super keyword
+yh likhna hi pdta he jo perent class ke component ko call krta he 
+
+14 > state in class 
+
+isme key : value paire me dete he or this. se hi use krte he or jb (this.setState ka use krte he to usme {this.setState((prevent)=>{count : prevent.count + 1})}) prevent likna pdta he ya kuch r lekin acces set krnr ke liye sate k kisi or  value se acces krte he arrow function me
+
+15 > code spliting
+
+without code spliting ke sari file bundel ke rap hoke jati he browser ke pass or spliting use krke jo file requride he vhi jati he sepratuly or grop bna ke jise chunk khte he {jb uski jarurt ho nly tbhi imoprt hora}
+
+16 > suspense
+jbtk lazy method cmonent render nhi hota tbtk suspense component ka fallback run hoga
+
+17 >  react profile
+
+yh react applicaion ki profile ko btata he jese performance , start end time ,execution time 
+
+18 > reactive programing in reACT 
+
+jb bhi hm kuch type krte he google me to automatic suggection aata he key event ke karn
+
+ 
+
+
+
+

@@ -1,0 +1,19 @@
+.wins{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2,130px);
+    width: 350px;
+    margin: auto;
+}
+.bwins{
+    background:#1f3540;
+    border-radius: 11px;
+    color:#26ffcb;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px 0px;
+}
+.bwins span{
+    color: white;
+}
