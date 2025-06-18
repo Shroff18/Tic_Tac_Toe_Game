@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shroff18/Tic_Tac_Toe_Game.git/static/css/main.06e9d779.css",
+    "main.js": "/Shroff18/Tic_Tac_Toe_Game.git/static/js/main.bf21edaf.js",
+    "static/js/453.ed3810f9.chunk.js": "/Shroff18/Tic_Tac_Toe_Game.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Shroff18/Tic_Tac_Toe_Game.git/index.html",
+    "main.06e9d779.css.map": "/Shroff18/Tic_Tac_Toe_Game.git/static/css/main.06e9d779.css.map",
+    "main.bf21edaf.js.map": "/Shroff18/Tic_Tac_Toe_Game.git/static/js/main.bf21edaf.js.map",
+    "453.ed3810f9.chunk.js.map": "/Shroff18/Tic_Tac_Toe_Game.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e9d779.css",
+    "static/js/main.bf21edaf.js"
+  ]
+}
